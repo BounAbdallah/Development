@@ -1,0 +1,585 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    display: flex;
+}
+/* .ban{
+    position: absolute;
+    width: 100%;
+
+} */
+.logo img{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+}
+
+nav {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 50px 0 0 300px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+.home{
+    border-bottom: #ee1d48 solid 3px;
+}
+.search-icon{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+nav li a, .dropbtn {
+    font-weight:bold;
+    display: inline-block;
+    color: #101820;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #101820;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+/* .dropdown-content a:hover {
+    background-color: red;
+} */
+.dropdown .dropbtn {
+    color: #ff0000; /* Rouge pour la flèche au survol */
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.section1 .contact{
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+
+}
+nav li:last-child a {
+    color: white; /* Couleur blanche pour le texte "Contact" */
+}
+
+.section3{
+    display: flex;
+    /* margin-right: 10vh;
+    margin-left: 10vh; */
+    padding-left: 30vh;
+    background-color:#fdf7f8;
+}
+.section3 img{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 1px;
+    width: 25%;
+    border-radius: 30Px;
+
+}
+.texte_numerique{
+    margin-top: 1px;
+    line-height: 1.95;
+    font-weight: bolder;
+    width: 35%;
+}
+.texte_numerique h1{
+    color: #ee1d48;
+}
+.section3 img{
+    height: 500px;
+    }
+/* body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+} */
+.banière{
+    position: relative;
+    width: 100%;
+}
+.image26{
+    filter: brightness(70%);
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.texte_description{
+    position: absolute;
+    bottom: 50px; /* Ajuste la position verticale */
+    right: 50%; /* Ajuste la position horizontale*/
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+
+}
+.button-contact{
+    background-color: rgb(194, 10, 10);
+    color: white;
+    padding: 16px 25px; /* Remplissage intérieur du bouton */
+    font-size: 16px;
+    border: none; /* Supprimer la bordure */
+    border-radius: 25px 25px 25px 25px; /* Coins arrondis */
+}
+.button-passage{
+    text-align: center; /* Aligne les boutons au centre horizontalement */
+    padding-top: 150px;
+    padding-left: 550px;
+}
+.button-rond{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+.button-rectangle{
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Nouv{
+    text-align: center;
+    color: rgb(194, 10, 10);
+}
+.Actualité1{
+    text-align: left;
+    color: rgb(194, 10, 10);
+}
+.Actus{
+    position: relative;
+    display: inline-block;
+    margin: 18px;
+}
+.Actusimg{
+    width: 300px;
+    height: 200px;
+    display: block;
+    border: 1px solid #ddd; /* Ajoutez une bordure pour plus de visibilité */
+    border-radius: 8px; /* Coins arrondis, facultatif */
+    
+}
+/*.Actualité2 p{
+    max-width: 600px; /* Ajustez la largeur selon vos besoins */
+    /*margin: 0 auto; /* Centre le texte horizontalement 0 auto*/
+    /*padding: 15px;
+}*/
+
+.Actusp{
+    color:rgb(109, 107, 107);
+}
+.date-label {
+    position:absolute;
+    /*text-align: center;*/
+    bottom: 310px;
+    left:230px;
+    padding: 9px;
+    padding-top: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(194, 10, 10);
+    border: none;
+    border-radius: 0 0 25px 25px;
+    width: 40px;
+    height: 50px;
+    
+
+}
+
+/* Style pour le jour (en haut) */
+.day {
+    display: block;
+    font-weight: bold;
+    padding-top:7px;
+}
+
+/* Style pour le mois (en bas) */
+.month {
+    display: block;
+    margin-top: 0px; /* Ajustez cette valeur selon vos besoins pour le positionnement */
+    font-size: 7px;
+    opacity: 1;
+    letter-spacing: 2px;
+}
+.Actusplus{
+    display: flex;
+    align-items: center;
+    margin-left: 1200px;
+}
+.Actusplush2{
+    color:rgb(194, 10, 10);
+}
+.button-Actusplus{
+    background-color: rgb(194, 10, 10);
+    color: white;
+    font-size: 16px;
+    border: none; /* Supprimer la bordure */
+    border-radius: 50%; /* Coins arrondis */
+    width: 45px;
+    height: 45px;
+    margin:12px;
+}
+.plus{
+    font-weight: bold;
+    font-size: 40px;
+    margin:-12px;
+    margin-top: -18px;
+}
+
+.even{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+    margin-left: 30vh;
+    /* padding-right: 10vh;
+    padding-left: 10vh; */
+}
+.evenement{
+    color: white;
+}
+
+.even1{
+    width: 110vh;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    background-color:#ee1d48;
+}
+/* .even1 h5,.even2 h5{
+    margin-left: 10vh;
+} */
+.even2{
+    width: 110vh;
+    padding-top: 2px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 20vh;
+    display: flex;
+    background-color:#ee1d48;
+}
+.mois{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.date{
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.date p span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.even p{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Formateur{
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 30px;
+    height: 100px;
+}
+.formateur1{
+    display: flex;
+}
+/* .Formateur p,.Formateur h1{
+    margin-top: 40px;
+} */
+.fleche{
+    background-color: #fff;
+    padding: 2px;
+}
+button{
+    position: absolute;
+        margin-top: 30vh;
+        margin-left: -3vh;
+        background-color: #ee1d48;
+        color:#fff;
+        border: #ee1d48 1px solid;
+        border-radius: 10px;
+}
+.form{
+    background-color: #fff;
+    margin-top: 50px;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30vh;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    background-image: url("Images/19.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+hr{
+    width: 200px;
+    margin-left: 0;
+}
+#formateur1{
+    margin-right: 50px;
+}
+.rafetal{
+    display: flex;
+    margin-left: -100vh;
+}
+.point{
+    background-color: #ee1d48;
+    width: 10px;
+    height: 10px;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: 299px;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 8px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: 299px;
+    margin-left: 10px;
+}
+.histoire{
+    display: flex;
+    margin-top: 150px;
+    padding: 100px;
+}
+.alumni,.petitehistoire{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 500px;
+
+}
+
+.time{
+    height: 20px;
+    width: 60px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -50px;
+    margin-left: 300px;
+    padding:5px 15px 30px 15px;
+  
+}
+.time h3{
+    margin-top: 6px;
+    margin-left: -3px;
+}
+
+#play,#play1{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant,#apprenant1{
+    height: 300px;
+}
+#apprenant1{
+    width: 350px;
+
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    height: 50px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-top: #ee1d48 7px solid;
+}
+.texte{
+    margin-left: 50px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
+    color: #ee1d48;
+}
+.Formulaire{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    color: #ee1d48;
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px 60px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.full-width {
+    width: 275px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 5vh;
+    font-size: larger;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #45a049;
+}
+.nom,.mail{
+    display: flex;
+}
+#prenom,#telephone{
+    margin-left: 10px;
+}
+textarea {
+    padding: 10px;
+    /* margin-bottom: 2px; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#case{
+    display: flex;
+}
+#agree{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#case b{
+    color: #ee1d48;
+}
+
+#case label{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.coordonnees{
+    margin-top: 40px;
+    line-height: 2;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.Formulaire img{
+    height: 30px;
+    width: 30px;
+}
+                                       
