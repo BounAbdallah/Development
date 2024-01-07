@@ -45,15 +45,14 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 50px 0 0 10px;
+    margin: 50px 0 0 100px;
     padding: 0;
     overflow: hidden;
 }
 
 nav li {
     float: left;
-    font-size: 10px;
-    margin: 0px 0 0 5px;
+    margin: 0px 0 0 15px;
 
 }
 .home{
@@ -66,7 +65,6 @@ nav li {
 }
 
 nav li a, .dropbtn {
-    font-size: 16px;
     font-weight:bold;
     display: inline-block;
     color: #101820;
@@ -118,7 +116,6 @@ nav li.dropdown {
 
 }
 nav li:last-child a {
-    font-size: 12px;
     color: white; /* Couleur blanche pour le texte "Contact" */
 }
 
@@ -321,12 +318,6 @@ nav li:last-child a {
     display: flex;
     justify-content: center;
 }
-.rafetal3{
-    background: #F3F3F3;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
 .point{
     background-color: #cf3034;
     width: 1vh;
@@ -407,9 +398,6 @@ nav li:last-child a {
     margin: 5px 5px 5px 5px;
     padding: 3px 3px 3px 3px;
     box-shadow: 4px 4px 4px 4px rgba(62, 58, 58, 0.1);
-}
-.box img{
-    width: 50px;
 }
 
 .deux-contenue {
@@ -569,38 +557,9 @@ nav li:last-child a {
 
 #H1 {
     display: flex;
-    font-size: 30px;
+    font-size: 50px;
     color: #cf3034;
     justify-content: center;
-}
-.rejoindre{
-    display: flex;
-    justify-content: space-evenly;
-}
-.rejoindre .texte-contenu{
-    margin-left: 30px;
-    margin-right: 30px;
-   
-}
-.rejoindre .texte-contenu h1{
-    margin-top: 4px;
-    font-size: 22px;
-   color: #ce0033;
-    line-height: 2;
-}
-.offre-info .trait{
-    margin-left: 500px;
-    margin-top: 30px;
-    width: 30px;
-    height: 8px;
-    background: #cf3034;
-}
-.rejoindre .texte-contenu p{
-   text-align: left;
-    line-height: 2.2;
-}
-.rejoindre .video{
-    margin-left: 60px;
 }
 
 /* Styles pour la section "Équipe" */
@@ -708,367 +667,12 @@ box-shadow: 5px 5px 10px 0px white;
 #form1{
     margin-top: 15px;
 }
-.quote{
-    border-radius: 0%;
-}
 
-
-/* Styles pour la section "Partenaires" */
-.partenaire {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.partenaires {
-    margin-left: 80px;
-    margin-right: 80px;
-    display: grid;
-}
-.partenaires img {
-   width: 100;
-   margin: 0px;
-   height: 80px;
-
-}
-/* Code candidature */
-.candidature .shadow{
-    width: 400px;
-}
-
-.candidature {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
-.candidature{
-
-    display: flex;
-    justify-content: center;
-}
-.chiffre1 h2 {
-    margin-top: 25px;
-    padding-top: 15px;
-    color: #F3F3F3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #d61742;
-    margin-right: 30px;
-    margin-left: -30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.chiffre2 h2 {
-    margin-top: 25px;
-    padding-top: 15px;
-    color: #F3F3F3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #f5b500;
-    margin-right: 30px;
-    margin-left: -30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.chiffre3 h2 {
-    margin-top: 25px;
-    padding-top: 15px;
-    color: #F3F3F3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #f22000;
-    margin-right: 30px;
-    margin-left: -30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.chiffre4 h2 {
-    margin-top: 25px;
-    padding-top: 15px;
-    color: #F3F3F3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #3278ab;
-    margin-right: 30px;
-    margin-left: -30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.chiffre6 h2 {
-    margin-top: 25px;
-    padding-top: 15px;
-    color: #F3F3F3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background-color: #2b9844;
-    margin-right: 30px;
-    margin-left: -30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-/* code temoignage */
-.temoignage{
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.temoignage .card1{
-    align-items: center;
-    margin-bottom: 20px;
-    text-align: left;
-    border-radius: 10px;
-    width: 500px;
-    padding: 10px 10px 10px 10px;
-}
-.temoignage .card1 .photo-temoin{
-    border-radius: 50%;
-    width: 130px;
-    margin-left: 60px;
-}
-.temoignage h1{
-    font-size: 22px;
-    font-weight: 100;
-    margin-left: 30px;
-}
-.temoignage p{
-    color: #c5c5c5;
-    margin-left: 30px;
-    margin-top: -14px;
-    line-height: 2.5;
-}
-
-/* Styles pour la section "Recrutement" */
-.recrutement {
-    margin-top: 60px;
-    margin-left: 00px;
-    width: 600px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-}
-.recrutement .partie-1 {
-    width: 600px;
-    border-radius: 20px;
-    margin-left: 100px;
-}
-.recrutement .partie-1 button{
-    margin-left: 190px;
-    color: #F3F3F3;
-}
-.recrutement .partie-2 button{
-    color: #F3F3F3;
-}
-.partie-1 img {
-    background-color: #8e1919;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 700px;
-}
-
-.offre {
-    display: flex;
-}
-
-form {
-    display: grid;
-    margin-right: 100px;
-    grid-template-columns: 6fr;
-}
-
-.form1 {
-    margin-top: 30px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.form2 {
-    margin-top: 30px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.form1 input {
-    width: 250px;
-    height: 80px;
-    padding-left: 1;
-    margin-right: 20px;
-    border: solid #F3F3F3 1px;
-}
-
-.form2 input {
-    width: 250px;
-    height: 80px;
-    margin-right: 20px;
-    border: solid #F3F3F3 1px;
-}
-
-.iconify-icon {
-    color: #ce0033;
-    margin-left: 300px;
-}
-
-.partie-1 h1 {
-    font-size: 30px;
-    border-top: 3px solid #ce0033;
-    border-bottom: 3px solid #ce0033;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.partie-1 h3 {
-    display: flex;
-    justify-content: right;
-    font-size: 25px !important;
-}
-
-a {
-    text-decoration: none;
-    font-size: 25px !important;
-}
-.offre-info{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.recrutement h1{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.offre-info h2 {
-    text-align: left;
-    border-bottom: 1px solid #ce0033;
-    font-size: 40px;
-    color: #ce0033;
-}
-
-.offre-info p {
-    font-size: 20px;
-}
-
-.offre-info h4 {
-    color: #ce0033;
-    font-size: 20px;
-}
-.recrutement .partie-1{
-    background: #f4efef;
-}
-.partie-1 button {
-    margin-top: 30px;
-    margin-left: 50%;
-    color: #F3F3F3 ;
-    font-size: 20px;
-    background-color: #ce0033;
-    border: 0.1px solid transparent;
-    border-radius: 35px;
-    width: 140px;
-    height: 50px;
-}
-
-.offre-details {
-    border-radius: 10%;
-    position: absolute;
-    background: #FAFAFA;
-    width: 15%;
-    height:25%;
-    display: flex;
-    padding-top: 10px;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 160px;
-    margin: right 0;
-    margin-left: 350px;
-}
-
-.offre-details iconify-icon {
-    width: 30px;
-    margin-left: 10px;
-    vertical-align: middle;
-    margin-top: -16px;
-    font-size: 16px;
-}
-
-.partie-2 h1 {
-
-    margin-top: 50px;
-    font-size: 30px;
-    color: #ce0033;
-}
-
-.partie-2 {
-    margin-left: 50px;
-}
-
-.fichier {
-    display: flex;
-    justify-content: right;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: #ce0033;
-}
-
-.partie-2 p {
-    width: 500px;
-    height: 500px;
-    font-size: 18px;
-}
-
-.message textarea {
-    width: 540px;
-    height: 200px;
-    margin-left: 20px;
-    border: solid gray 3px;
-    margin-top: 20px;
-}
-
-.accord {
-    display: flex;
-    justify-content: left;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-.btn {
-    display: flex;
-    margin-left: 20px;
-}
-.shadow{
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    box-shadow: 0px 1px 1px 1px rgba(130, 128, 128, 0.499);
-
-}
-.btn input {
-    width: 200px;
-    height: 50px;
-    border: 0.1px solid transparent;
-    border-radius: 35px;
-    color: #F3F3F3 ;
-    font-size: 18px;
-    background-color: #ce0033;
-}
 
 /* code footer */
 
 footer {
-    
+    font-family: 'Nunito Sans', sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
     background-image: url('Images/fabrique/image_footer.png');
@@ -1109,18 +713,14 @@ a:hover {
 }
 
 .carte4 p {
-    width: 100%;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .Newsletter {
     margin-top: 30px;
     font-size: 20px;
 }
-.img-youtube{
-    width: 36px;
-    height: 26px;
-}
+
 .Newsletter .input {
     background-color: #ffff;
     border-radius: 15px 0px 0px 15px;
@@ -1142,11 +742,9 @@ a:hover {
     height: 50px;
 }
 .rejoindre{
-    margin-left: -0px;
-}
-.rejoindre value{
     margin-left: -10px;
 }
+
 .copy {
     padding-left: 20px;
     padding-right: 20px;
@@ -1155,5 +753,3 @@ a:hover {
     justify-content: space-between;
     background-color: #cf3034;
 }
-
-/* Code responsive */
