@@ -124,7 +124,7 @@ nav li:last-child a {
     font-weight: normal;
     font-style: normal; 
 } */
-.baniere{
+.banière{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,17 +136,9 @@ nav li:last-child a {
    backdrop-filter:  filter brightness(70%)
 }
 .contenaire-texte-2-baniere{
-    height: 100%px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    font-weight: 800;
+    width: 100vh;
     color: #FFF;
-    margin-top: 300px;
-    padding: 12px;
-    margin-bottom: -150px;
+    margin-top: 30vh;
     background: #cf3034;
     backdrop-filter: 0.6 black; opacity: 0.5;
     display: flex;
@@ -419,7 +411,6 @@ nav li:last-child a {
 .deux-contenue {
     width:auto;
     display: flex;
-    margin: 0px;
 }
 .image {
     width: 600px;
@@ -1113,13 +1104,12 @@ a:hover {
     font-size: 20px;
 }
 
-/* .carte4 p {
+.carte4 p {
     width: 100%;
     font-size: 18px;
-} */
+}
 
 .Newsletter {
-    width: 100%;
     margin-top: 30px;
     font-size: 20px;
 }
@@ -1147,12 +1137,12 @@ a:hover {
     width: 100px;
     height: 50px;
 }
-.rejoindr{
+.rejoindre{
+    margin-left: -0px;
+}
+.rejoindre value{
     margin-left: -10px;
 }
-/* .rejoindre value{
-    margin-left: -10px;
-} */
 .copy {
     padding-left: 20px;
     padding-right: 20px;
@@ -1164,306 +1154,6 @@ a:hover {
 
 /* Code responsive */
 @media screen and (max-width: 912px) {
-    html{
-        width: 100%;
-    }
-    body{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    
-    .elements-contenaire{
-        width: 50%;
-    }
-    .section1 {
-        
-        margin: 0px;
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 70%;
-      align-items: center;
-    }
-    nav{
-        display: grid;
-        grid-template: 4fr 4fr 4fr 4fr 4fr;
-    }
-    nav ul {
-      flex-direction: row;
-      align-items: center;
-      margin-top: 10px;
-    }
-    .section1 .contact{
-        visibility: hidden;
-        margin-left: 5px;
-        background-color: #cf3034;
-        border: 1px solid #cf3034;
-        border-radius: 30px;
-    
-    }
   
-    .baniere {
-        width:auto ;
-      padding: 30px;
-      display: flex;
-      justify-content: center;
-      flex-direction:row;
-      flex-wrap: wrap;
-    }
-    .baniere .texte_description h1{
-        padding-top: 20%;
-        font-size: 62px;
-        margin-top: 150px;
-    }
-      .Noschiffre, .equipe,  .temoignage {
-      padding: 30px 10px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    .pedagogie{
-        display: flex;
-        align-items: center;
-    }.pedagogie:first-child{
-        margin: 40px;
-    }
-    .pedagogie:last-child{
-        margin-top: 50px;
-    }
-
-    .petitehistoire{
-        width: 100%;
-        margin: 0px;
-        display: grid;
-        grid-template: 2fr;
-        align-items: left;
-    }
-    .petitehistoire .texte1{
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 0px;
-        font-size: larger;
-        line-height: 1.5;
-        text-align: center;
-    }
-    .video{
-        margin: 1px;
-    }
-    .pilier{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px;
-    }
-    .container-box{
-        margin: 0px;
-        width: 90%;
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .box{
-        width: 70%;
-    }
-    .deux-contenue{
-        margin-left: 20px;
-    }
-    .div-deux {
-        margin-top: 30px;
-        display: grid;
-        grid-template-columns: 10fr;
-        width: 450px;
-        margin-left: 80px;
-    }
-    .valeurs{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .pedagogie{
-        width: 100%;
-        margin: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .texte2 {
-        width: 80%;
-        margin-left: 0px;
-        margin-top: 20px;
-        line-height: 1.5;
-    }
-    .veleur-content{
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
-    }
-    .temoignage .card1{
-            width: 100%;
-             display: flex;
-             align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        
-
-    }
-  
-    .recrutement{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .rejoindre{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .candidature{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }.partenaire{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .partenaire  img{
-    margin: 40px;
-    width: 40%;
-    height: 100%;
-    }
-    footer{
-        font-size: 26px;
-        width: 100%;
-        padding: 10px;
-         display: flex;
-         align-items: left;
-        justify-content: center;
-        flex-direction: column;
-    }
-    /* .carte1{
-        width: 100%;
-         display: flex;
-         align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }*/
-    /* .carte2{
-        
-            width: 100%;
-             display: flex;
-             align-items: center;
-        display: flex;
-        justify-content: space-evenly;
-    } */
     
-
-    
-    .carte1{
-        width: 100%;
-         display: flex;
-         align-items: center;
-        display: grid;
-        
-    }
-    .carte2{
-        width: 100%;
-         display: flex;
-         align-items: center;
-        display: grid;
-        
-    }
-    .carte3{
-        width: 100%;
-        display: flex;
-        align-items: center;
-       display: grid;
-    }
-    .carte4{
-        width: 100%;
-         display: flex;
-         align-items: center;
-        display: grid;
-        grid-template: auto;
-}
-
-    .logo-simplon{
-        margin: 30px;
-        width: 40%;
-        justify-content: center;
-
-    }
-    .Noschiffre {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 50px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        background-image: url('Images/arriere_plan.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .equipe {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        margin-top: 40px;
-        margin-bottom: 50px;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .equipe .card{
-        width: 70%;
-        height: 500px;
-        margin: 20px;
-    }
-    .p6 {
-        display: flex;
-        justify-content: center;
-        margin-top: 0px;
-        align-items: center;
-        margin-bottom: 80px;
-        display: flex;
-        color: #cf3034;
-        margin-left:0px;
-        font: size 12px;;
-        
-    }
-    .copy {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        color: #ffff;
-        display: flex;
-        justify-content: space-between;
-        background-color: #cf3034;
-    }
-    .recrutement .partie-1{
-        margin-left: -0px;
-    }
-    .offre-details {
-        border-radius: 10%;
-        position: absolute;
-        background: #FAFAFA;
-        width: 20%;
-        height:15%;
-        display: flex;
-        padding-top: 10px;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 160px;
-        margin: right 0;
-        margin-left: 350px;
-    }
-
 }
